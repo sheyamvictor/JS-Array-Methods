@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS :)</title>
+    <title>JS:)</title>
 </head>
+
 <body>
-    <div>
-        <h1>Hello World ! :) </h1>
-        <h3>JAVASCRIPT ARRAY-METHODS( )</h3>
+    <div id="root">
+
         <h4 id="current"> </h4>
     </div>
-    <script src="array.js"></script>
+    <!-- <script src="array.js"></script> -->
+    <!-- <script src="this.js"></script> -->
+    <script>
+        const heading = document.createElement('h1')
+        heading.innerHTML = "Hello World JavaScript :)"
+        const root = document.getElementById('root')
+        root.appendChild(heading)
+    </script>
+
+
 </body>
+
 </html>
